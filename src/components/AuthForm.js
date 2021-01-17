@@ -28,7 +28,6 @@ const AuthForm = () => {
                 // log in
                  data = await authService.signInWithEmailAndPassword(email, password)
             }
-            console.log(data)
         } catch(err){
             setError(err.message)
         }

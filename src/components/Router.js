@@ -21,7 +21,7 @@ const AppRouter = ({isLoggedIn, userObj, refreshUser}) => {
                         display: "flex",
                         justifyContent: "center",
                         }}
-                    >
+                    >  
                         <Route exact path="/">
                             <Home userObj={userObj} />
                         </Route> 
